@@ -4,8 +4,8 @@
 #include <string.h>
 #include <stdlib.h>
 
-
-unsigned int state[5]={0x0};
+//test
+unsigned int state[5]={0x1};
 
 static const unsigned char padding[64] = {
   0x80, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
