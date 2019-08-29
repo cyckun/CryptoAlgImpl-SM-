@@ -4,8 +4,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-//test
-unsigned int state[5]={0x1};
+unsigned int state[5]={0x0};
 
 static const unsigned char padding[64] = {
   0x80, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
@@ -121,7 +120,7 @@ void main()
 	unsigned int i;
 	unsigned char *msg="abc";
 	//unsigned char *msg="abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq";
-    //unsigned char *msg=(unsigned char*)malloc(1000001);
+        //unsigned char *msg=(unsigned char*)malloc(1000001);
 	//memset(msg,0,1000001);
 	///for(i=0; i<1000000; i++)
 		//msg[i]='a';
